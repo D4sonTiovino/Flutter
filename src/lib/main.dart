@@ -7,7 +7,6 @@ import 'package:english_words/english_words.dart';
 
 void main() => runApp(MyApp());
 
-// #docregion MyApp
 class MyApp extends StatelessWidget {
   // #docregion build
   @override
@@ -22,9 +21,7 @@ class MyApp extends StatelessWidget {
   }
   // #enddocregion build
 }
-// #enddocregion MyApp
 
-// #docregion RWS-var
 class _RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
   final _saved = <WordPair>[];
@@ -114,7 +111,6 @@ class _RandomWordsState extends State<RandomWords> {
   // #enddocregion RWS-build
   // #docregion RWS-var
 }
-// #enddocregion RWS-var
 
 class RandomWords extends StatefulWidget {
   @override
